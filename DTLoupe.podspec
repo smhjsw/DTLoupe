@@ -3,7 +3,7 @@ Pod::Spec.new do |spec|
   spec.version      = '1.5.9'
   spec.platform     = :ios, '4.3'
   spec.license      = 'BSD'
-  spec.source       = { :git => 'https://github.com/Cocoanetics/DTLoupe.git', :tag => spec.version.to_s }
+  spec.source       = { :git => 'git@github.com/smhjsw/DTLoupe.git', :tag => spec.version.to_s }
   spec.source_files = 'Core/Source/*.{h,m}'
   spec.frameworks   = 'QuartzCore'
   spec.requires_arc = true
